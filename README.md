@@ -1,7 +1,6 @@
 
-# Persona-Driven Document Intelligence 
-This is our Solution for Round 1B
-By Team Byteme
+# Persona-Driven Document Intelligence Adobe Hackathon
+This is Solution for Round 1B By Team Byteme
 Abhay Sharma
 Harsh Agarwal
 Devang Kumawat
@@ -104,6 +103,11 @@ These examples correspond to "Test Case 1: Academic Research" from the challenge
 This command runs the application. It creates a container from the image we just built, links your local `input` and `output` folders to the folders inside the container, and disables the container's network access to prove it works offline.[1]
 
 #### For Windows (in Command Prompt or PowerShell):
+
+```bash
+docker run --rm --network none -v "${PWD}\input:/app/input" -v "${PWD}\output:/app/output" persona-intelligence
+```
+or 
 
 ```bash
 docker run --rm --network none -v "%cd%\input":/app/input -v "%cd%\output":/app/output persona-intelligence
