@@ -1,0 +1,18 @@
+# Specify CPU-only PyTorch to optimize image size and dependencies
+torch --extra-index-url https://download.pytorch.org/whl/cpu
+
+# Core library for text embeddings and AI model handling
+sentence-transformers
+
+# High-performance PDF parsing and text extraction
+PyMuPDF
+
+# Graph analysis library for our hybrid ranking engine
+networkx
+
+# Core numerical operations
+numpy
+scipy
+
+# A required dependency for our chosen embedding model
+einops
