@@ -16,3 +16,5 @@ scipy
 
 # A required dependency for our chosen embedding model
 einops
+
+pymupdf4llm
